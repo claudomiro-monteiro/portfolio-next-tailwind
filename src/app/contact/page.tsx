@@ -42,7 +42,7 @@ export default function Contact() {
     // console.log(JSON.stringify(data, null, 2))
     setSpinner(true)
     try {
-      await axios.post('http://localhost:3000/api', data)
+      await axios.post('/api', data)
       setSpinner(false)
       toast.success('Contato enviado com sucesso!', {
         position: toast.POSITION.TOP_CENTER,
