@@ -10,7 +10,9 @@ export default function Sidebar() {
       }`}
     >
       <nav className="flex h-full flex-col items-center justify-evenly">
-        <Link href="/">Inicio</Link>
+        <Link href="/" onClick={handleMobileButton}>
+          Inicio
+        </Link>
         <Link href="/#about" onClick={handleMobileButton}>
           Sobre
         </Link>
