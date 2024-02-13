@@ -23,7 +23,7 @@ export const projects = [
     rote: 'https://github.com/claudomiro-monteiro/devstore',
   },
   {
-    id: 2,
+    id: 3,
     title: 'IgNews',
     img: ignews,
     description:
@@ -31,7 +31,7 @@ export const projects = [
     rote: 'https://github.com/claudomiro-monteiro/ignews',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Expenses',
     img: expenses,
     description:
@@ -39,7 +39,7 @@ export const projects = [
     rote: 'https://github.com/claudomiro-monteiro/expenses-front-end',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Ecoleta',
     img: ecoleta,
     description:
@@ -47,7 +47,7 @@ export const projects = [
     rote: 'https://github.com/claudomiro-monteiro/ecoleta',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Great Coffee',
     img: coffee,
     description:
